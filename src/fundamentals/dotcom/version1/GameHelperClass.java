@@ -1,7 +1,7 @@
-package fundamentals.dotcom;
+package fundamentals.dotcom.version1;
 import java.io.*;
 
-public class GameHelper {
+public class GameHelperClass {
     public String getUserInput(String prompt){
         String inputLine = null;
         System.out.println(prompt + " ");

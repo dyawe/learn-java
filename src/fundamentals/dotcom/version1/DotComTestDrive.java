@@ -1,10 +1,15 @@
-package fundamentals.dotcom;
+package fundamentals.dotcom.version1;
 
-public class SimpleDotComTestDrive {
+import java.util.ArrayList;
+
+public class DotComTestDrive {
     public static void main(String[] args) {
-        SimpleDotCom dot = new SimpleDotCom();
+        DotComClass dot = new DotComClass();
 
-        int[] locations = {2,3,4};
+        ArrayList<Integer> locations = new ArrayList<Integer>();
+        locations.add(2);
+        locations.add(3);
+        locations.add(4);
         dot.setLocationCells(locations);
 
         String userGuess = "2";
